@@ -3,7 +3,7 @@ cask "claude-stats" do
   name "claude-stats"
   desc "Analytics for Claude Code usage - parse JSONL session files into SQLite"
   homepage "https://github.com/cnu/claude-stats"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "claude-stats" do
   on_macos do
     on_intel do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_darwin_amd64.tar.gz"
-      sha256 "62717f83777faaefcb9a7c818a63235b77f500b5fc5c0bd96b7ff8cd49372e3d"
+      sha256 "ad31cb495b06130d329b5c5d38ec9f0f7672114768ddfedf2bffac9d9c059e8e"
     end
     on_arm do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_darwin_arm64.tar.gz"
-      sha256 "2150f57547c17ab7ae865e649e8b3bf15bb50c7df790d1c127a8ee21e66ffda2"
+      sha256 "2c3d8cee5bda28d326845bae0502add3bb7033ae2c768c787e76f2b18f47cbe2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_linux_amd64.tar.gz"
-      sha256 "b655e3fcbdc17723232d602fe42bdc5d86b6d0117f2a01c7d8f36325c7e6c735"
+      sha256 "4379aee498d1612130ce0fcb2406729493dd6505af8f23d7ebb832450e934a06"
     end
     on_arm do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_linux_arm64.tar.gz"
-      sha256 "5382f04ec70be45538af3491437f92e0f7f6493720f9c3dafe989591fdefa692"
+      sha256 "74a881fbe763c4359e818f4edc69f7788831d3e2aa8a4cb296bcd2ddf3a6a41b"
     end
   end
 

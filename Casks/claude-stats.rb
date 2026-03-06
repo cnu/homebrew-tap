@@ -14,22 +14,22 @@ cask "claude-stats" do
   on_macos do
     on_intel do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_darwin_amd64.tar.gz"
-      sha256 "9e5459480c63b2330696031aaacbab119fd617c161d5dd2bf176eec60d9268ba"
+      sha256 "62717f83777faaefcb9a7c818a63235b77f500b5fc5c0bd96b7ff8cd49372e3d"
     end
     on_arm do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_darwin_arm64.tar.gz"
-      sha256 "641df9a132b619333874fe4dc71d4106d42da86d102efecd684a7de84af2c31d"
+      sha256 "2150f57547c17ab7ae865e649e8b3bf15bb50c7df790d1c127a8ee21e66ffda2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_linux_amd64.tar.gz"
-      sha256 "822330a03add09dae3cbb6365fcb35b85602723b1d5e76e8d06fd27144ee95d8"
+      sha256 "b655e3fcbdc17723232d602fe42bdc5d86b6d0117f2a01c7d8f36325c7e6c735"
     end
     on_arm do
       url "https://github.com/cnu/claude-stats/releases/download/v#{version}/claude-stats_#{version}_linux_arm64.tar.gz"
-      sha256 "7d432683dff28504d61aaf5541e75ddc2d864c3b0a5bca82831c75f496b3746f"
+      sha256 "5382f04ec70be45538af3491437f92e0f7f6493720f9c3dafe989591fdefa692"
     end
   end
 
